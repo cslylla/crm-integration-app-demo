@@ -15,12 +15,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <div className={`${styles.page}`}>
-        <main className={styles.main}>
-          <div className={styles.ctas}>
+        <main>
             <h1>CRM Integration</h1>
             <ContactFrom />
-          </div>
         </main>
         <footer className={styles.footer}>
           made by
@@ -46,7 +43,6 @@ export default function Home() {
             Try it →
           </a>
         </footer>
-      </div>
     </>
   );
 }
