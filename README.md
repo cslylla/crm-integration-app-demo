@@ -1,4 +1,4 @@
-# CRM Integraion App Demo
+# CRM Integration App Demo
 
 ## Project Overview
 
